@@ -78,23 +78,47 @@
 			children = (
 				AEC870B727FCF2B300F624A1 /* AppDelegate.swift */,
 				AEC870B927FCF2B300F624A1 /* SceneDelegate.swift */,
-				AEC870BB27FCF2B300F624A1 /* ViewController.swift */,
-				AEC870CB27FCF92400F624A1 /* ChooseImageViewController.swift */,
-				AEC8713528010A6D00F624A1 /* ApiViewController.swift */,
-				AEC8710127FE336200F624A1 /* CustomImageView.swift */,
-				AEC870CD27FCFD8E00F624A1 /* CustomCollectionViewCell.swift */,
-				AEC8710527FF10E800F624A1 /* BigImageViewController.swift */,
-				AEC870F327FDA9A500F624A1 /* MainViewController.swift */,
-				AEC870F527FDAB7B00F624A1 /* CustomTableViewCell.swift */,
-				AEC870F727FDB47500F624A1 /* Base.swift */,
-				AEC870FB27FE315000F624A1 /* Networking.swift */,
-				AEC870FF27FE331300F624A1 /* Model.swift */,
-				AEC870FD27FE32B500F624A1 /* GetModel.swift */,
+				AECC258C280371CA00BB3676 /* Controllers */,
+				AECC258E2803722600BB3676 /* Models */,
+				AECC258D280371FC00BB3676 /* Servises */,
 				AEC870C027FCF2B400F624A1 /* Assets.xcassets */,
 				AEC870C227FCF2B400F624A1 /* LaunchScreen.storyboard */,
 				AEC870C527FCF2B400F624A1 /* Info.plist */,
 			);
 			path = VK_iOSPhoto;
+			sourceTree = "<group>";
+		};
+		AECC258C280371CA00BB3676 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AEC870BB27FCF2B300F624A1 /* ViewController.swift */,
+				AEC870CB27FCF92400F624A1 /* ChooseImageViewController.swift */,
+				AEC8713528010A6D00F624A1 /* ApiViewController.swift */,
+				AEC8710527FF10E800F624A1 /* BigImageViewController.swift */,
+				AEC870F327FDA9A500F624A1 /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AECC258D280371FC00BB3676 /* Servises */ = {
+			isa = PBXGroup;
+			children = (
+				AEC870F727FDB47500F624A1 /* Base.swift */,
+				AEC870FB27FE315000F624A1 /* Networking.swift */,
+				AEC870FF27FE331300F624A1 /* Model.swift */,
+			);
+			path = Servises;
+			sourceTree = "<group>";
+		};
+		AECC258E2803722600BB3676 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AEC8710127FE336200F624A1 /* CustomImageView.swift */,
+				AEC870CD27FCFD8E00F624A1 /* CustomCollectionViewCell.swift */,
+				AEC870F527FDAB7B00F624A1 /* CustomTableViewCell.swift */,
+				AEC870FD27FE32B500F624A1 /* GetModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
