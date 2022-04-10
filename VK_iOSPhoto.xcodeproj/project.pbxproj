@@ -79,7 +79,7 @@
 				AEC870B727FCF2B300F624A1 /* AppDelegate.swift */,
 				AEC870B927FCF2B300F624A1 /* SceneDelegate.swift */,
 				AECC258C280371CA00BB3676 /* Controllers */,
-				AECC258E2803722600BB3676 /* CustomCells  */,
+				AECC258E2803722600BB3676 /* View */,
 				AECC258D280371FC00BB3676 /* Servises */,
 				AEC870C027FCF2B400F624A1 /* Assets.xcassets */,
 				AEC870C227FCF2B400F624A1 /* LaunchScreen.storyboard */,
@@ -110,7 +110,7 @@
 			path = Servises;
 			sourceTree = "<group>";
 		};
-		AECC258E2803722600BB3676 /* CustomCells  */ = {
+		AECC258E2803722600BB3676 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				AEC8710127FE336200F624A1 /* CustomImageView.swift */,
@@ -118,7 +118,7 @@
 				AEC870F527FDAB7B00F624A1 /* CustomTableViewCell.swift */,
 				AEC870FD27FE32B500F624A1 /* GetModel.swift */,
 			);
-			path = "CustomCells ";
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
