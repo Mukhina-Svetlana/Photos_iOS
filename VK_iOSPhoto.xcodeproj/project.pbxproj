@@ -9,18 +9,18 @@
 /* Begin PBXBuildFile section */
 		AEC870B827FCF2B300F624A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC870B727FCF2B300F624A1 /* AppDelegate.swift */; };
 		AEC870BA27FCF2B300F624A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC870B927FCF2B300F624A1 /* SceneDelegate.swift */; };
-		AEC870BC27FCF2B300F624A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC870BB27FCF2B300F624A1 /* ViewController.swift */; };
+		AEC870BC27FCF2B300F624A1 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC870BB27FCF2B300F624A1 /* RegisterViewController.swift */; };
 		AEC870C127FCF2B400F624A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC870C027FCF2B400F624A1 /* Assets.xcassets */; };
 		AEC870C427FCF2B400F624A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC870C227FCF2B400F624A1 /* LaunchScreen.storyboard */; };
 		AEC870CC27FCF92400F624A1 /* ChooseImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC870CB27FCF92400F624A1 /* ChooseImageViewController.swift */; };
 		AEC870CE27FCFD8E00F624A1 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC870CD27FCFD8E00F624A1 /* CustomCollectionViewCell.swift */; };
-		AEC870F427FDA9A500F624A1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC870F327FDA9A500F624A1 /* MainViewController.swift */; };
+		AEC870F427FDA9A500F624A1 /* AllUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC870F327FDA9A500F624A1 /* AllUsersViewController.swift */; };
 		AEC870F627FDAB7B00F624A1 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC870F527FDAB7B00F624A1 /* CustomTableViewCell.swift */; };
 		AEC870F827FDB47500F624A1 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC870F727FDB47500F624A1 /* Base.swift */; };
 		AEC870FC27FE315000F624A1 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC870FB27FE315000F624A1 /* Networking.swift */; };
 		AEC870FE27FE32B500F624A1 /* GetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC870FD27FE32B500F624A1 /* GetModel.swift */; };
 		AEC8710027FE331300F624A1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC870FF27FE331300F624A1 /* Model.swift */; };
-		AEC8710227FE336200F624A1 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC8710127FE336200F624A1 /* CustomImageView.swift */; };
+		AEC8710227FE336200F624A1 /* CustomImageApiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC8710127FE336200F624A1 /* CustomImageApiView.swift */; };
 		AEC8710627FF10E800F624A1 /* BigImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC8710527FF10E800F624A1 /* BigImageViewController.swift */; };
 		AEC8713628010A6D00F624A1 /* ApiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC8713528010A6D00F624A1 /* ApiViewController.swift */; };
 /* End PBXBuildFile section */
@@ -29,19 +29,19 @@
 		AEC870B427FCF2B300F624A1 /* VK_iOSPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VK_iOSPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC870B727FCF2B300F624A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEC870B927FCF2B300F624A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AEC870BB27FCF2B300F624A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEC870BB27FCF2B300F624A1 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		AEC870C027FCF2B400F624A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEC870C327FCF2B400F624A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEC870C527FCF2B400F624A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEC870CB27FCF92400F624A1 /* ChooseImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseImageViewController.swift; sourceTree = "<group>"; };
 		AEC870CD27FCFD8E00F624A1 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
-		AEC870F327FDA9A500F624A1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AEC870F327FDA9A500F624A1 /* AllUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllUsersViewController.swift; sourceTree = "<group>"; };
 		AEC870F527FDAB7B00F624A1 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		AEC870F727FDB47500F624A1 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		AEC870FB27FE315000F624A1 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		AEC870FD27FE32B500F624A1 /* GetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetModel.swift; sourceTree = "<group>"; };
 		AEC870FF27FE331300F624A1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		AEC8710127FE336200F624A1 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		AEC8710127FE336200F624A1 /* CustomImageApiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageApiView.swift; sourceTree = "<group>"; };
 		AEC8710527FF10E800F624A1 /* BigImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigImageViewController.swift; sourceTree = "<group>"; };
 		AEC8713528010A6D00F624A1 /* ApiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,7 +78,7 @@
 			children = (
 				AEC870B727FCF2B300F624A1 /* AppDelegate.swift */,
 				AEC870B927FCF2B300F624A1 /* SceneDelegate.swift */,
-				AECC258C280371CA00BB3676 /* Controllers */,
+				AECC258C280371CA00BB3676 /* Controller */,
 				AECC258E2803722600BB3676 /* View */,
 				AECC258D280371FC00BB3676 /* Servises */,
 				AEC870C027FCF2B400F624A1 /* Assets.xcassets */,
@@ -88,24 +88,21 @@
 			path = VK_iOSPhoto;
 			sourceTree = "<group>";
 		};
-		AECC258C280371CA00BB3676 /* Controllers */ = {
+		AECC258C280371CA00BB3676 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				AEC870BB27FCF2B300F624A1 /* ViewController.swift */,
-				AEC870CB27FCF92400F624A1 /* ChooseImageViewController.swift */,
-				AEC8713528010A6D00F624A1 /* ApiViewController.swift */,
+				AEC870BB27FCF2B300F624A1 /* RegisterViewController.swift */,
 				AEC8710527FF10E800F624A1 /* BigImageViewController.swift */,
-				AEC870F327FDA9A500F624A1 /* MainViewController.swift */,
+				AEC870F327FDA9A500F624A1 /* AllUsersViewController.swift */,
 			);
-			path = Controllers;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		AECC258D280371FC00BB3676 /* Servises */ = {
 			isa = PBXGroup;
 			children = (
-				AEC870F727FDB47500F624A1 /* Base.swift */,
-				AEC870FB27FE315000F624A1 /* Networking.swift */,
-				AEC870FF27FE331300F624A1 /* Model.swift */,
+				AECC258F2804967F00BB3676 /* Model */,
+				AECC25902804969500BB3676 /* View */,
 			);
 			path = Servises;
 			sourceTree = "<group>";
@@ -113,12 +110,39 @@
 		AECC258E2803722600BB3676 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				AEC8710127FE336200F624A1 /* CustomImageView.swift */,
+				AEC8710127FE336200F624A1 /* CustomImageApiView.swift */,
 				AEC870CD27FCFD8E00F624A1 /* CustomCollectionViewCell.swift */,
 				AEC870F527FDAB7B00F624A1 /* CustomTableViewCell.swift */,
-				AEC870FD27FE32B500F624A1 /* GetModel.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		AECC258F2804967F00BB3676 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEC870FD27FE32B500F624A1 /* GetModel.swift */,
+				AEC870FF27FE331300F624A1 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AECC25902804969500BB3676 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AEC870FB27FE315000F624A1 /* Networking.swift */,
+				AEC870F727FDB47500F624A1 /* Base.swift */,
+				AECC2591280496AF00BB3676 /* Controller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AECC2591280496AF00BB3676 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AEC8713528010A6D00F624A1 /* ApiViewController.swift */,
+				AEC870CB27FCF92400F624A1 /* ChooseImageViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +216,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEC870F827FDB47500F624A1 /* Base.swift in Sources */,
-				AEC8710227FE336200F624A1 /* CustomImageView.swift in Sources */,
-				AEC870BC27FCF2B300F624A1 /* ViewController.swift in Sources */,
+				AEC8710227FE336200F624A1 /* CustomImageApiView.swift in Sources */,
+				AEC870BC27FCF2B300F624A1 /* RegisterViewController.swift in Sources */,
 				AEC870CE27FCFD8E00F624A1 /* CustomCollectionViewCell.swift in Sources */,
 				AEC870FC27FE315000F624A1 /* Networking.swift in Sources */,
 				AEC870FE27FE32B500F624A1 /* GetModel.swift in Sources */,
@@ -201,7 +225,7 @@
 				AEC8713628010A6D00F624A1 /* ApiViewController.swift in Sources */,
 				AEC8710627FF10E800F624A1 /* BigImageViewController.swift in Sources */,
 				AEC870F627FDAB7B00F624A1 /* CustomTableViewCell.swift in Sources */,
-				AEC870F427FDA9A500F624A1 /* MainViewController.swift in Sources */,
+				AEC870F427FDA9A500F624A1 /* AllUsersViewController.swift in Sources */,
 				AEC8710027FE331300F624A1 /* Model.swift in Sources */,
 				AEC870B827FCF2B300F624A1 /* AppDelegate.swift in Sources */,
 				AEC870BA27FCF2B300F624A1 /* SceneDelegate.swift in Sources */,

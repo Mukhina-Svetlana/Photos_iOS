@@ -134,7 +134,6 @@ extension ViewController {
             if name == i.name && password == i.password  {
                 let alert = UIAlertController(title: "Вы уже зарегестрированы! ", message: "", preferredStyle: .alert)
                 let ok = UIAlertAction(title: "Ok", style: .default) { action in
-                    //self.navigationController?.pushViewController(MainViewController(), animated: true)
                     let newViewController = UINavigationController(rootViewController: MainViewController())
                      newViewController.modalPresentationStyle = .fullScreen
                     self.present(newViewController, animated: true, completion: nil)
